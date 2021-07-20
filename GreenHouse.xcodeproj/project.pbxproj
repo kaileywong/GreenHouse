@@ -16,6 +16,8 @@
 		DFB4760D26A76509005D4B01 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DFB4760B26A76509005D4B01 /* LaunchScreen.storyboard */; };
 		DFB4761826A7650A005D4B01 /* GreenHouseTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFB4761726A7650A005D4B01 /* GreenHouseTests.swift */; };
 		DFB4762326A7650A005D4B01 /* GreenHouseUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFB4762226A7650A005D4B01 /* GreenHouseUITests.swift */; };
+		DFB4763126A7781C005D4B01 /* MenuViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFB4763026A7781C005D4B01 /* MenuViewController.swift */; };
+		DFB4763326A77842005D4B01 /* SelfCareViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFB4763226A77842005D4B01 /* SelfCareViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +53,8 @@
 		DFB4761E26A7650A005D4B01 /* GreenHouseUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GreenHouseUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		DFB4762226A7650A005D4B01 /* GreenHouseUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GreenHouseUITests.swift; sourceTree = "<group>"; };
 		DFB4762426A7650A005D4B01 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DFB4763026A7781C005D4B01 /* MenuViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuViewController.swift; sourceTree = "<group>"; };
+		DFB4763226A77842005D4B01 /* SelfCareViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SelfCareViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -109,6 +113,8 @@
 				DFB4760B26A76509005D4B01 /* LaunchScreen.storyboard */,
 				DFB4760E26A76509005D4B01 /* Info.plist */,
 				DFB4760626A76508005D4B01 /* GreenHouse.xcdatamodeld */,
+				DFB4763026A7781C005D4B01 /* MenuViewController.swift */,
+				DFB4763226A77842005D4B01 /* SelfCareViewController.swift */,
 			);
 			path = GreenHouse;
 			sourceTree = "<group>";
@@ -262,7 +268,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				DFB4760826A76508005D4B01 /* GreenHouse.xcdatamodeld in Sources */,
+				DFB4763126A7781C005D4B01 /* MenuViewController.swift in Sources */,
 				DFB4760226A76508005D4B01 /* ViewController.swift in Sources */,
+				DFB4763326A77842005D4B01 /* SelfCareViewController.swift in Sources */,
 				DFB475FE26A76508005D4B01 /* AppDelegate.swift in Sources */,
 				DFB4760026A76508005D4B01 /* SceneDelegate.swift in Sources */,
 			);
