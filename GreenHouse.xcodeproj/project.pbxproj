@@ -1,0 +1,609 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		DFB475FE26A76508005D4B01 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFB475FD26A76508005D4B01 /* AppDelegate.swift */; };
+		DFB4760026A76508005D4B01 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFB475FF26A76508005D4B01 /* SceneDelegate.swift */; };
+		DFB4760226A76508005D4B01 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFB4760126A76508005D4B01 /* ViewController.swift */; };
+		DFB4760526A76508005D4B01 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DFB4760326A76508005D4B01 /* Main.storyboard */; };
+		DFB4760826A76508005D4B01 /* GreenHouse.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = DFB4760626A76508005D4B01 /* GreenHouse.xcdatamodeld */; };
+		DFB4760A26A76509005D4B01 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DFB4760926A76509005D4B01 /* Assets.xcassets */; };
+		DFB4760D26A76509005D4B01 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DFB4760B26A76509005D4B01 /* LaunchScreen.storyboard */; };
+		DFB4761826A7650A005D4B01 /* GreenHouseTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFB4761726A7650A005D4B01 /* GreenHouseTests.swift */; };
+		DFB4762326A7650A005D4B01 /* GreenHouseUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFB4762226A7650A005D4B01 /* GreenHouseUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		DFB4761426A7650A005D4B01 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DFB475F226A76508005D4B01 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DFB475F926A76508005D4B01;
+			remoteInfo = GreenHouse;
+		};
+		DFB4761F26A7650A005D4B01 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DFB475F226A76508005D4B01 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DFB475F926A76508005D4B01;
+			remoteInfo = GreenHouse;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		DFB475FA26A76508005D4B01 /* GreenHouse.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GreenHouse.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		DFB475FD26A76508005D4B01 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		DFB475FF26A76508005D4B01 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		DFB4760126A76508005D4B01 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		DFB4760426A76508005D4B01 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		DFB4760726A76508005D4B01 /* GreenHouse.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = GreenHouse.xcdatamodel; sourceTree = "<group>"; };
+		DFB4760926A76509005D4B01 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		DFB4760C26A76509005D4B01 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		DFB4760E26A76509005D4B01 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DFB4761326A7650A005D4B01 /* GreenHouseTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GreenHouseTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		DFB4761726A7650A005D4B01 /* GreenHouseTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GreenHouseTests.swift; sourceTree = "<group>"; };
+		DFB4761926A7650A005D4B01 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DFB4761E26A7650A005D4B01 /* GreenHouseUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GreenHouseUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		DFB4762226A7650A005D4B01 /* GreenHouseUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GreenHouseUITests.swift; sourceTree = "<group>"; };
+		DFB4762426A7650A005D4B01 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		DFB475F726A76508005D4B01 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DFB4761026A7650A005D4B01 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DFB4761B26A7650A005D4B01 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		DFB475F126A76508005D4B01 = {
+			isa = PBXGroup;
+			children = (
+				DFB475FC26A76508005D4B01 /* GreenHouse */,
+				DFB4761626A7650A005D4B01 /* GreenHouseTests */,
+				DFB4762126A7650A005D4B01 /* GreenHouseUITests */,
+				DFB475FB26A76508005D4B01 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		DFB475FB26A76508005D4B01 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DFB475FA26A76508005D4B01 /* GreenHouse.app */,
+				DFB4761326A7650A005D4B01 /* GreenHouseTests.xctest */,
+				DFB4761E26A7650A005D4B01 /* GreenHouseUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		DFB475FC26A76508005D4B01 /* GreenHouse */ = {
+			isa = PBXGroup;
+			children = (
+				DFB475FD26A76508005D4B01 /* AppDelegate.swift */,
+				DFB475FF26A76508005D4B01 /* SceneDelegate.swift */,
+				DFB4760126A76508005D4B01 /* ViewController.swift */,
+				DFB4760326A76508005D4B01 /* Main.storyboard */,
+				DFB4760926A76509005D4B01 /* Assets.xcassets */,
+				DFB4760B26A76509005D4B01 /* LaunchScreen.storyboard */,
+				DFB4760E26A76509005D4B01 /* Info.plist */,
+				DFB4760626A76508005D4B01 /* GreenHouse.xcdatamodeld */,
+			);
+			path = GreenHouse;
+			sourceTree = "<group>";
+		};
+		DFB4761626A7650A005D4B01 /* GreenHouseTests */ = {
+			isa = PBXGroup;
+			children = (
+				DFB4761726A7650A005D4B01 /* GreenHouseTests.swift */,
+				DFB4761926A7650A005D4B01 /* Info.plist */,
+			);
+			path = GreenHouseTests;
+			sourceTree = "<group>";
+		};
+		DFB4762126A7650A005D4B01 /* GreenHouseUITests */ = {
+			isa = PBXGroup;
+			children = (
+				DFB4762226A7650A005D4B01 /* GreenHouseUITests.swift */,
+				DFB4762426A7650A005D4B01 /* Info.plist */,
+			);
+			path = GreenHouseUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		DFB475F926A76508005D4B01 /* GreenHouse */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DFB4762726A7650A005D4B01 /* Build configuration list for PBXNativeTarget "GreenHouse" */;
+			buildPhases = (
+				DFB475F626A76508005D4B01 /* Sources */,
+				DFB475F726A76508005D4B01 /* Frameworks */,
+				DFB475F826A76508005D4B01 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = GreenHouse;
+			productName = GreenHouse;
+			productReference = DFB475FA26A76508005D4B01 /* GreenHouse.app */;
+			productType = "com.apple.product-type.application";
+		};
+		DFB4761226A7650A005D4B01 /* GreenHouseTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DFB4762A26A7650A005D4B01 /* Build configuration list for PBXNativeTarget "GreenHouseTests" */;
+			buildPhases = (
+				DFB4760F26A7650A005D4B01 /* Sources */,
+				DFB4761026A7650A005D4B01 /* Frameworks */,
+				DFB4761126A7650A005D4B01 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DFB4761526A7650A005D4B01 /* PBXTargetDependency */,
+			);
+			name = GreenHouseTests;
+			productName = GreenHouseTests;
+			productReference = DFB4761326A7650A005D4B01 /* GreenHouseTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		DFB4761D26A7650A005D4B01 /* GreenHouseUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DFB4762D26A7650A005D4B01 /* Build configuration list for PBXNativeTarget "GreenHouseUITests" */;
+			buildPhases = (
+				DFB4761A26A7650A005D4B01 /* Sources */,
+				DFB4761B26A7650A005D4B01 /* Frameworks */,
+				DFB4761C26A7650A005D4B01 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DFB4762026A7650A005D4B01 /* PBXTargetDependency */,
+			);
+			name = GreenHouseUITests;
+			productName = GreenHouseUITests;
+			productReference = DFB4761E26A7650A005D4B01 /* GreenHouseUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		DFB475F226A76508005D4B01 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1250;
+				LastUpgradeCheck = 1250;
+				TargetAttributes = {
+					DFB475F926A76508005D4B01 = {
+						CreatedOnToolsVersion = 12.5.1;
+					};
+					DFB4761226A7650A005D4B01 = {
+						CreatedOnToolsVersion = 12.5.1;
+						TestTargetID = DFB475F926A76508005D4B01;
+					};
+					DFB4761D26A7650A005D4B01 = {
+						CreatedOnToolsVersion = 12.5.1;
+						TestTargetID = DFB475F926A76508005D4B01;
+					};
+				};
+			};
+			buildConfigurationList = DFB475F526A76508005D4B01 /* Build configuration list for PBXProject "GreenHouse" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = DFB475F126A76508005D4B01;
+			productRefGroup = DFB475FB26A76508005D4B01 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				DFB475F926A76508005D4B01 /* GreenHouse */,
+				DFB4761226A7650A005D4B01 /* GreenHouseTests */,
+				DFB4761D26A7650A005D4B01 /* GreenHouseUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		DFB475F826A76508005D4B01 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DFB4760D26A76509005D4B01 /* LaunchScreen.storyboard in Resources */,
+				DFB4760A26A76509005D4B01 /* Assets.xcassets in Resources */,
+				DFB4760526A76508005D4B01 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DFB4761126A7650A005D4B01 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DFB4761C26A7650A005D4B01 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		DFB475F626A76508005D4B01 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DFB4760826A76508005D4B01 /* GreenHouse.xcdatamodeld in Sources */,
+				DFB4760226A76508005D4B01 /* ViewController.swift in Sources */,
+				DFB475FE26A76508005D4B01 /* AppDelegate.swift in Sources */,
+				DFB4760026A76508005D4B01 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DFB4760F26A7650A005D4B01 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DFB4761826A7650A005D4B01 /* GreenHouseTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DFB4761A26A7650A005D4B01 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DFB4762326A7650A005D4B01 /* GreenHouseUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		DFB4761526A7650A005D4B01 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DFB475F926A76508005D4B01 /* GreenHouse */;
+			targetProxy = DFB4761426A7650A005D4B01 /* PBXContainerItemProxy */;
+		};
+		DFB4762026A7650A005D4B01 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DFB475F926A76508005D4B01 /* GreenHouse */;
+			targetProxy = DFB4761F26A7650A005D4B01 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		DFB4760326A76508005D4B01 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DFB4760426A76508005D4B01 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		DFB4760B26A76509005D4B01 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DFB4760C26A76509005D4B01 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		DFB4762526A7650A005D4B01 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		DFB4762626A7650A005D4B01 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		DFB4762826A7650A005D4B01 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = GreenHouse/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "kwk-2021.GreenHouse";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		DFB4762926A7650A005D4B01 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = GreenHouse/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "kwk-2021.GreenHouse";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		DFB4762B26A7650A005D4B01 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = GreenHouseTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "kwk-2021.GreenHouseTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/GreenHouse.app/GreenHouse";
+			};
+			name = Debug;
+		};
+		DFB4762C26A7650A005D4B01 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = GreenHouseTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "kwk-2021.GreenHouseTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/GreenHouse.app/GreenHouse";
+			};
+			name = Release;
+		};
+		DFB4762E26A7650A005D4B01 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = GreenHouseUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "kwk-2021.GreenHouseUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = GreenHouse;
+			};
+			name = Debug;
+		};
+		DFB4762F26A7650A005D4B01 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = GreenHouseUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "kwk-2021.GreenHouseUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = GreenHouse;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		DFB475F526A76508005D4B01 /* Build configuration list for PBXProject "GreenHouse" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DFB4762526A7650A005D4B01 /* Debug */,
+				DFB4762626A7650A005D4B01 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DFB4762726A7650A005D4B01 /* Build configuration list for PBXNativeTarget "GreenHouse" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DFB4762826A7650A005D4B01 /* Debug */,
+				DFB4762926A7650A005D4B01 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DFB4762A26A7650A005D4B01 /* Build configuration list for PBXNativeTarget "GreenHouseTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DFB4762B26A7650A005D4B01 /* Debug */,
+				DFB4762C26A7650A005D4B01 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DFB4762D26A7650A005D4B01 /* Build configuration list for PBXNativeTarget "GreenHouseUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DFB4762E26A7650A005D4B01 /* Debug */,
+				DFB4762F26A7650A005D4B01 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		DFB4760626A76508005D4B01 /* GreenHouse.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				DFB4760726A76508005D4B01 /* GreenHouse.xcdatamodel */,
+			);
+			currentVersion = DFB4760726A76508005D4B01 /* GreenHouse.xcdatamodel */;
+			path = GreenHouse.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = DFB475F226A76508005D4B01 /* Project object */;
+}
