@@ -277,6 +277,14 @@
                                 <rect key="frame" x="0.0" y="684" width="414" height="256"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="aSQ-wd-44N">
+                                <rect key="frame" x="20" y="27" width="32" height="32"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" backgroundImage="List"/>
+                                <connections>
+                                    <segue destination="XJ9-jc-5eN" kind="show" id="UI3-vR-9bt"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="beV-bY-3Qd"/>
                         <color key="backgroundColor" red="0.78823529410000004" green="0.87450980389999999" blue="0.54117647059999996" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
@@ -351,10 +359,13 @@ Zinc oxide</string>
         </scene>
     </scenes>
     <inferredMetricsTieBreakers>
-        <segue reference="rgK-fd-lUb"/>
+        <segue reference="08Q-Q8-iTm"/>
+        <segue reference="jG1-ge-yM4"/>
+        <segue reference="UI3-vR-9bt"/>
     </inferredMetricsTieBreakers>
     <resources>
         <image name="Leaf" width="40" height="43"/>
+        <image name="List" width="32" height="32"/>
         <image name="chevron.left" catalog="system" width="96" height="128"/>
         <image name="cleanser" width="512" height="512"/>
         <image name="cosmetics" width="512" height="512"/>
