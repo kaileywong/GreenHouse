@@ -18,6 +18,7 @@
 		DFB4762326A7650A005D4B01 /* GreenHouseUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFB4762226A7650A005D4B01 /* GreenHouseUITests.swift */; };
 		DFB4763126A7781C005D4B01 /* MenuViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFB4763026A7781C005D4B01 /* MenuViewController.swift */; };
 		DFB4763326A77842005D4B01 /* SelfCareViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFB4763226A77842005D4B01 /* SelfCareViewController.swift */; };
+		DFB4763C26A7F68D005D4B01 /* Quicksand-VariableFont_wght.ttf in Resources */ = {isa = PBXBuildFile; fileRef = DFB4763B26A7F68D005D4B01 /* Quicksand-VariableFont_wght.ttf */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -55,6 +56,7 @@
 		DFB4762426A7650A005D4B01 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		DFB4763026A7781C005D4B01 /* MenuViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuViewController.swift; sourceTree = "<group>"; };
 		DFB4763226A77842005D4B01 /* SelfCareViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SelfCareViewController.swift; sourceTree = "<group>"; };
+		DFB4763B26A7F68D005D4B01 /* Quicksand-VariableFont_wght.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Quicksand-VariableFont_wght.ttf"; path = "../../../Downloads/Quicksand/Quicksand-VariableFont_wght.ttf"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -109,6 +111,7 @@
 				DFB475FF26A76508005D4B01 /* SceneDelegate.swift */,
 				DFB4760126A76508005D4B01 /* ViewController.swift */,
 				DFB4760326A76508005D4B01 /* Main.storyboard */,
+				DFB4763B26A7F68D005D4B01 /* Quicksand-VariableFont_wght.ttf */,
 				DFB4760926A76509005D4B01 /* Assets.xcassets */,
 				DFB4760B26A76509005D4B01 /* LaunchScreen.storyboard */,
 				DFB4760E26A76509005D4B01 /* Info.plist */,
@@ -241,6 +244,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				DFB4760D26A76509005D4B01 /* LaunchScreen.storyboard in Resources */,
+				DFB4763C26A7F68D005D4B01 /* Quicksand-VariableFont_wght.ttf in Resources */,
 				DFB4760A26A76509005D4B01 /* Assets.xcassets in Resources */,
 				DFB4760526A76508005D4B01 /* Main.storyboard in Resources */,
 			);
