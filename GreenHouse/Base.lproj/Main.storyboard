@@ -244,11 +244,6 @@
                                 <nil key="highlightedColor"/>
                                 <color key="shadowColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                             </label>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="FMW-JH-uvu">
-                                <rect key="frame" x="12" y="22" width="40" height="43"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" backgroundImage="List"/>
-                            </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="shaving" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="c9p-Ne-bl5">
                                 <rect key="frame" x="274" y="438" width="57" height="18"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
@@ -319,7 +314,7 @@
                                     <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 </state>
                                 <connections>
-                                    <segue destination="PXR-fL-qOl" kind="show" id="zO7-pr-UVd"/>
+                                    <segue destination="PXR-fL-qOl" kind="show" id="jG1-ge-yM4"/>
                                 </connections>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Great Alternatives:" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="tkS-jD-spC">
@@ -360,7 +355,6 @@ Zinc oxide</string>
     </inferredMetricsTieBreakers>
     <resources>
         <image name="Leaf" width="40" height="43"/>
-        <image name="List" width="32" height="32"/>
         <image name="chevron.left" catalog="system" width="96" height="128"/>
         <image name="cleanser" width="512" height="512"/>
         <image name="cosmetics" width="512" height="512"/>
