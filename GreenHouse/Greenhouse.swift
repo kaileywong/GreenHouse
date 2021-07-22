@@ -40,7 +40,7 @@ class EIR {
         }
         else if (rating == 2){
             img = UIImage(named: "high")!
-            text = "LOW"
+            text = "HIGH"
             color = UIColor(red: 195, green: 0, blue: 90)
         }
     }
@@ -63,3 +63,5 @@ extension UIColor {
        )
    }
 }
+
+

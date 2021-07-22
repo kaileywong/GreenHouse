@@ -1,5 +1,5 @@
 //
-//  ItemViewController.swift
+//  FoodDrinkItemViewController.swift
 //  GreenHouse
 //
 //  Created by Kailey Wong on 7/21/21.
@@ -7,10 +7,9 @@
 
 import UIKit
 
-class ItemViewController: UIViewController {
-    
+class FoodDrinkItemViewController: UIViewController {
     var selectedItem:String = ""
-    
+
     @IBOutlet weak var itemName: UILabel!
     @IBOutlet weak var iconImage: UIImageView!
     @IBOutlet weak var explanationText: UITextView!
@@ -19,15 +18,14 @@ class ItemViewController: UIViewController {
     @IBOutlet weak var ingredientsText: UITextView!
     @IBOutlet weak var alternatives: UITextView!
     
-    var sunscreen = item(name: "Sunscreen", img: UIImage(named: "sunscreen")!, rate: 1, ing: "Oxybenzone, Octinoxate, Homosalate, Octisalate, Octocrylene, Avobenzone, Titanium dioxide, Zinc oxide", explain: "Many sunscreens contain ingredients that are harmful to both humans and wildlife.", alt: "• Thinksport SPF 50 Sunscreen \n • Kinfield Daily Dew SPF 35 \n • Raw Elements SPF 30 Certified Natural Sunscreen \n • Hello Bello Sunscreen Lotion \n • Art of Sport Skin Armor Sunscreen Lotion \n • Babo Botanicals SPF 30 Clear Zinc Lotion")
+    var takeout = item(name: "Takeout Container", img: UIImage(named: "box")!, rate: 2, ing: "", explain: "", alt: "")
+
     override func viewDidLoad() {
         super.viewDidLoad()
         
-        if selectedItem == "sunscreen" {
-            display(item: sunscreen)
+        if selectedItem == "takeout" {
+            display(item: takeout)
         }
-        
-//        display(item: sunscreen)
 
         // Do any additional setup after loading the view.
     }
@@ -42,8 +40,6 @@ class ItemViewController: UIViewController {
         explanationText.text = item.explanation
         alternatives.text = item.alternatives
     }
-    
-    
     
 
     /*

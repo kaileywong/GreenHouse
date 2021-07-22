@@ -11,7 +11,6 @@ class SelfCareViewController: UIViewController {
     
     var item = ""
 
-    @IBOutlet weak var label: UILabel!
     override func viewDidLoad() {
         super.viewDidLoad()
 
@@ -23,9 +22,9 @@ class SelfCareViewController: UIViewController {
         if segue.identifier == "sunscreen" {
             self.item = "sunscreen"
         }
-        if segue.destination is ItemViewController {
+        if segue.destination is SelfCareItemViewController {
            
-                let vc = segue.destination as? ItemViewController
+                let vc = segue.destination as? SelfCareItemViewController
                 vc?.selectedItem = self.item
            
         }
