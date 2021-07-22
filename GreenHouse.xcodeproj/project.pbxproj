@@ -13,6 +13,8 @@
 		DF1C135C26A89AE00041083D /* LifestyleViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF1C135B26A89AE00041083D /* LifestyleViewController.swift */; };
 		DF1C135E26A8A94E0041083D /* StatisticsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF1C135D26A8A94E0041083D /* StatisticsViewController.swift */; };
 		DF1C136026A8A9700041083D /* AboutViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF1C135F26A8A9700041083D /* AboutViewController.swift */; };
+		DF25AEF826A91AFA00369ED6 /* Greenhouse.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF25AEF726A91AFA00369ED6 /* Greenhouse.swift */; };
+		DF25AEFC26A91C9800369ED6 /* ItemViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF25AEFB26A91C9800369ED6 /* ItemViewController.swift */; };
 		DFB475FE26A76508005D4B01 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFB475FD26A76508005D4B01 /* AppDelegate.swift */; };
 		DFB4760026A76508005D4B01 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFB475FF26A76508005D4B01 /* SceneDelegate.swift */; };
 		DFB4760226A76508005D4B01 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFB4760126A76508005D4B01 /* ViewController.swift */; };
@@ -51,6 +53,8 @@
 		DF1C135B26A89AE00041083D /* LifestyleViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LifestyleViewController.swift; sourceTree = "<group>"; };
 		DF1C135D26A8A94E0041083D /* StatisticsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StatisticsViewController.swift; sourceTree = "<group>"; };
 		DF1C135F26A8A9700041083D /* AboutViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AboutViewController.swift; sourceTree = "<group>"; };
+		DF25AEF726A91AFA00369ED6 /* Greenhouse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Greenhouse.swift; sourceTree = "<group>"; };
+		DF25AEFB26A91C9800369ED6 /* ItemViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ItemViewController.swift; sourceTree = "<group>"; };
 		DFB475FA26A76508005D4B01 /* GreenHouse.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GreenHouse.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		DFB475FD26A76508005D4B01 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		DFB475FF26A76508005D4B01 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -136,6 +140,8 @@
 				DF1C135B26A89AE00041083D /* LifestyleViewController.swift */,
 				DF1C135D26A8A94E0041083D /* StatisticsViewController.swift */,
 				DF1C135F26A8A9700041083D /* AboutViewController.swift */,
+				DF25AEF726A91AFA00369ED6 /* Greenhouse.swift */,
+				DF25AEFB26A91C9800369ED6 /* ItemViewController.swift */,
 			);
 			path = GreenHouse;
 			sourceTree = "<group>";
@@ -294,7 +300,9 @@
 				DFB4763126A7781C005D4B01 /* MenuViewController.swift in Sources */,
 				DFB4760226A76508005D4B01 /* ViewController.swift in Sources */,
 				DF1C135C26A89AE00041083D /* LifestyleViewController.swift in Sources */,
+				DF25AEF826A91AFA00369ED6 /* Greenhouse.swift in Sources */,
 				DF1C135E26A8A94E0041083D /* StatisticsViewController.swift in Sources */,
+				DF25AEFC26A91C9800369ED6 /* ItemViewController.swift in Sources */,
 				DF1C136026A8A9700041083D /* AboutViewController.swift in Sources */,
 				DFB4763326A77842005D4B01 /* SelfCareViewController.swift in Sources */,
 				DFB475FE26A76508005D4B01 /* AppDelegate.swift in Sources */,
