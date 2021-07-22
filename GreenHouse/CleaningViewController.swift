@@ -8,6 +8,7 @@
 import UIKit
 
 class CleaningViewController: UIViewController {
+    var item = ""
 
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -15,7 +16,17 @@ class CleaningViewController: UIViewController {
         // Do any additional setup after loading the view.
     }
     
-
+    override func prepare(for segue: UIStoryboardSegue, sender: Any?)
+    {
+        if segue.identifier == "chemical cleaner" {
+            self.item = "chemical cleaner"
+        }
+        if segue.destination is CleaningItemViewController {
+                let vc = segue.destination as? CleaningItemViewController
+                vc?.selectedItem = self.item
+           
+        }
+    }
     /*
     // MARK: - Navigation
 

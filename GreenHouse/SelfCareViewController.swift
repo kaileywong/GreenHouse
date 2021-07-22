@@ -22,6 +22,12 @@ class SelfCareViewController: UIViewController {
         if segue.identifier == "sunscreen" {
             self.item = "sunscreen"
         }
+        if segue.identifier == "makeup" {
+            self.item = "makeup"
+        }
+        if segue.identifier == "wash" {
+            self.item = "wash"
+        }
         if segue.destination is SelfCareItemViewController {
            
                 let vc = segue.destination as? SelfCareItemViewController

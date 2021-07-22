@@ -1,13 +1,13 @@
 //
-//  FoodDrinkItemViewController.swift
+//  GardeningItemViewController.swift
 //  GreenHouse
 //
-//  Created by Kailey Wong on 7/21/21.
+//  Created by Kailey Wong on 7/22/21.
 //
 
 import UIKit
 
-class FoodDrinkItemViewController: UIViewController {
+class GardeningItemViewController: UIViewController {
     var selectedItem:String = ""
 
     @IBOutlet weak var itemName: UILabel!
@@ -18,13 +18,12 @@ class FoodDrinkItemViewController: UIViewController {
     @IBOutlet weak var ingredientsText: UITextView!
     @IBOutlet weak var alternatives: UITextView!
     
-    var takeout = item(name: "Takeout Container", img: UIImage(named: "box")!, rate: 2, ing: "artificial packaging: aluminum containers/wrap, styrofoam, cardboard container, paper bag, paper napkins, plastic containers", explain: "Takeout containers are commonly made from plastics, which account for a significant portion of greenhouse gas emissions and negatively impact marine wildlife. Styrofoams, another common container type, break down into harmful chemicals that stay in soil and water for centuries. Producing other common materials like paper, cardboard, and aluminum expend vaulable resources and emit greenhouse gases.", alt: "Although this is not a consumer issue, you could help by reducing food takeout. \n Additionally, you could bring containers with you every time you eat out, so you don’t have to ask restaurants for artificial packaging.")
-
+    var plasticPot = item(name: "Plastic Pots", img: UIImage(named: "plants")!, rate: 1, ing: "Harmful plastics such as #3 PVC, #6 PS, and #7 polycarbonate", explain: "Toxic plastics that sit in landfills (like those in common plastic pots) increase pollution and harms local soils, ecosystems and entire communities. It takes many thousands of years for one plastic planter to break down and decompose all the way.", alt: " • BioPots \n • CowPots \n • DOT pot \n • EcoForms \n • anything made of biodegradable material")
     override func viewDidLoad() {
         super.viewDidLoad()
-        
-        if selectedItem == "takeout" {
-            display(item: takeout)
+
+        if selectedItem == "plastic pot" {
+            display(item: plasticPot)
         }
 
         // Do any additional setup after loading the view.

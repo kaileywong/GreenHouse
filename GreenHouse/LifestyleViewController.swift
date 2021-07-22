@@ -8,6 +8,7 @@
 import UIKit
 
 class LifestyleViewController: UIViewController {
+    var item = ""
 
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -15,7 +16,17 @@ class LifestyleViewController: UIViewController {
         // Do any additional setup after loading the view.
     }
     
-
+    override func prepare(for segue: UIStoryboardSegue, sender: Any?)
+    {
+        if segue.identifier == "clothing" {
+            self.item = "clothing"
+        }
+        if segue.destination is LifestyleItemViewController {
+                let vc = segue.destination as? LifestyleItemViewController
+                vc?.selectedItem = self.item
+           
+        }
+    }
     /*
     // MARK: - Navigation
 
