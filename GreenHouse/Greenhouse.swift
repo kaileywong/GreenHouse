@@ -30,7 +30,7 @@ class item {
 class EIR {
     var text = "LOW"
     var img = UIImage(named: "low")!
-    var color = UIColor(red: 173, green: 255, blue: 0)
+    var color = UIColor(red: 65, green: 216, blue: 0)
     
     init (rating : Int){
         if (rating == 1){

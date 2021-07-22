@@ -1782,7 +1782,7 @@
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" name="Quicksand-Light_Bold" family="Quicksand" pointSize="20"/>
                                 <color key="textColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                <nil key="highlightedColor"/>
+                                <color key="highlightedColor" red="0.2543455362" green="0.84664690490000005" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                             </label>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="fgn-wV-dCh"/>
@@ -1813,7 +1813,7 @@
         <segue reference="jG1-ge-yM4"/>
         <segue reference="qwh-wA-Q16"/>
         <segue reference="zJY-6A-p3h"/>
-        <segue reference="cCd-9w-LFt"/>
+        <segue reference="GYQ-ia-qZ0"/>
     </inferredMetricsTieBreakers>
     <resources>
         <image name="CaretRight" width="32" height="35"/>
