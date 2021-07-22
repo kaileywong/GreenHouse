@@ -8,6 +8,9 @@
 import UIKit
 
 class ItemViewController: UIViewController {
+    
+    var selectedItem:String = ""
+    
     @IBOutlet weak var itemName: UILabel!
     @IBOutlet weak var iconImage: UIImageView!
     @IBOutlet weak var explanationText: UITextView!
@@ -20,7 +23,12 @@ class ItemViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         
-        display(item: sunscreen)
+        if selectedItem == "sunscreen" {
+            display(item: sunscreen)
+        }
+        
+//        display(item: sunscreen)
+
         // Do any additional setup after loading the view.
     }
     
