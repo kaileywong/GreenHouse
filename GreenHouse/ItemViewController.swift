@@ -10,23 +10,29 @@ import UIKit
 class ItemViewController: UIViewController {
     @IBOutlet weak var itemName: UILabel!
     @IBOutlet weak var iconImage: UIImageView!
+    @IBOutlet weak var explanationText: UITextView!
     @IBOutlet weak var ratingText: UILabel!
     @IBOutlet weak var ratingImage: UIImageView!
+    @IBOutlet weak var ingredientsText: UITextView!
+    @IBOutlet weak var alternatives: UITextView!
     
-    var sunscreen = item(name: "Sunscreen", img: UIImage(named: "sunscreen")!, rate: 1)
+    var sunscreen = item(name: "Sunscreen", img: UIImage(named: "sunscreen")!, rate: 1, ing: "Oxybenzone, Octinoxate, Homosalate, Octisalate, Octocrylene, Avobenzone, Titanium dioxide, Zinc oxide", explain: "Many sunscreens contain ingredients that are harmful to both humans and wildlife.", alt: "• Thinksport SPF 50 Sunscreen \n • Kinfield Daily Dew SPF 35 \n • Raw Elements SPF 30 Certified Natural Sunscreen \n • Hello Bello Sunscreen Lotion \n • Art of Sport Skin Armor Sunscreen Lotion \n • Babo Botanicals SPF 30 Clear Zinc Lotion")
     override func viewDidLoad() {
         super.viewDidLoad()
         
-        display()
+        display(item: sunscreen)
         // Do any additional setup after loading the view.
     }
     
-    func display() {
-        itemName.text = sunscreen.title
-        iconImage.image = sunscreen.icon
-        ratingText.text = sunscreen.rating.text
-        ratingText.textColor = UIColor.orange
-        ratingImage.image = sunscreen.rating.img
+    func display(item : item) {
+        itemName.text = item.title
+        iconImage.image = item.icon
+        ratingText.text = item.rating.text
+        ratingText.textColor = item.rating.color
+        ratingImage.image = item.rating.img
+        ingredientsText.text = item.ingredients
+        explanationText.text = item.explanation
+        alternatives.text = item.alternatives
     }
     
     
