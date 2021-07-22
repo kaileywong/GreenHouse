@@ -219,7 +219,7 @@
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" backgroundImage="ChartBar"/>
                                 <connections>
-                                    <segue destination="aHr-Fp-07C" kind="show" id="3sQ-gB-253"/>
+                                    <segue destination="aHr-Fp-07C" kind="show" id="AKk-aV-CAQ"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="mEo-lm-8OE">
@@ -425,6 +425,43 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="oFM-5K-FDv" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="2031.8840579710147" y="87.723214285714278"/>
+        </scene>
+        <!--Search Table View Controller-->
+        <scene sceneID="HRz-7F-Bvc">
+            <objects>
+                <tableViewController id="bE5-lp-Owv" customClass="SearchTableViewController" customModule="GreenHouse" customModuleProvider="target" sceneMemberID="viewController">
+                    <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" id="MNZ-qX-alQ">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <searchBar key="tableHeaderView" contentMode="redraw" id="cA3-j4-Pho">
+                            <rect key="frame" x="0.0" y="0.0" width="414" height="44"/>
+                            <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMaxY="YES"/>
+                            <textInputTraits key="textInputTraits"/>
+                        </searchBar>
+                        <prototypes>
+                            <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" id="krZ-3s-wt7">
+                                <rect key="frame" x="0.0" y="68.5" width="414" height="43.5"/>
+                                <autoresizingMask key="autoresizingMask"/>
+                                <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="krZ-3s-wt7" id="yCX-HT-7SN">
+                                    <rect key="frame" x="0.0" y="0.0" width="414" height="43.5"/>
+                                    <autoresizingMask key="autoresizingMask"/>
+                                </tableViewCellContentView>
+                            </tableViewCell>
+                        </prototypes>
+                        <connections>
+                            <outlet property="dataSource" destination="bE5-lp-Owv" id="jOQ-fv-VEl"/>
+                            <outlet property="delegate" destination="bE5-lp-Owv" id="bpE-3N-J2N"/>
+                        </connections>
+                    </tableView>
+                    <navigationItem key="navigationItem" id="e2A-EB-hQV"/>
+                    <connections>
+                        <outlet property="searchBar" destination="MNZ-qX-alQ" id="Xp5-oP-Pew"/>
+                    </connections>
+                </tableViewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="r6J-F3-G7w" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2748" y="88"/>
         </scene>
         <!--Self Care View Controller-->
         <scene sceneID="Pfa-xi-FqH">
@@ -1806,13 +1843,13 @@
     </scenes>
     <inferredMetricsTieBreakers>
         <segue reference="Wpu-Ub-m6F"/>
-        <segue reference="qCJ-mw-Dv6"/>
-        <segue reference="iXJ-sP-0jg"/>
-        <segue reference="lVg-DX-UoN"/>
-        <segue reference="OME-Vu-VgB"/>
-        <segue reference="jG1-ge-yM4"/>
-        <segue reference="qwh-wA-Q16"/>
-        <segue reference="zJY-6A-p3h"/>
+        <segue reference="HSD-ye-1g5"/>
+        <segue reference="4Tv-Fw-gGc"/>
+        <segue reference="ltG-7o-Zpb"/>
+        <segue reference="h83-aX-wLW"/>
+        <segue reference="rgK-fd-lUb"/>
+        <segue reference="F9v-XC-WaF"/>
+        <segue reference="AKk-aV-CAQ"/>
         <segue reference="GYQ-ia-qZ0"/>
     </inferredMetricsTieBreakers>
     <resources>
@@ -1856,6 +1893,9 @@
         <image name="wipes" width="512" height="512"/>
         <systemColor name="labelColor">
             <color white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
         </systemColor>
     </resources>
 </document>

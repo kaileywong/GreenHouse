@@ -19,6 +19,7 @@
 		DF2A7F0326A9DABE0079F85E /* GardeningItemViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF2A7F0226A9DABE0079F85E /* GardeningItemViewController.swift */; };
 		DF2A7F0526A9DD710079F85E /* CleaningItemViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF2A7F0426A9DD710079F85E /* CleaningItemViewController.swift */; };
 		DF2A7F0726A9EBD00079F85E /* LifestyleItemViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF2A7F0626A9EBD00079F85E /* LifestyleItemViewController.swift */; };
+		DF2A7F4A26AA2E090079F85E /* SearchTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF2A7F4926AA2E090079F85E /* SearchTableViewController.swift */; };
 		DFB475FE26A76508005D4B01 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFB475FD26A76508005D4B01 /* AppDelegate.swift */; };
 		DFB4760026A76508005D4B01 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFB475FF26A76508005D4B01 /* SceneDelegate.swift */; };
 		DFB4760226A76508005D4B01 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFB4760126A76508005D4B01 /* ViewController.swift */; };
@@ -63,6 +64,7 @@
 		DF2A7F0226A9DABE0079F85E /* GardeningItemViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GardeningItemViewController.swift; sourceTree = "<group>"; };
 		DF2A7F0426A9DD710079F85E /* CleaningItemViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CleaningItemViewController.swift; sourceTree = "<group>"; };
 		DF2A7F0626A9EBD00079F85E /* LifestyleItemViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LifestyleItemViewController.swift; sourceTree = "<group>"; };
+		DF2A7F4926AA2E090079F85E /* SearchTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchTableViewController.swift; sourceTree = "<group>"; };
 		DFB475FA26A76508005D4B01 /* GreenHouse.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GreenHouse.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		DFB475FD26A76508005D4B01 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		DFB475FF26A76508005D4B01 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -154,6 +156,7 @@
 				DF2A7F0226A9DABE0079F85E /* GardeningItemViewController.swift */,
 				DF2A7F0426A9DD710079F85E /* CleaningItemViewController.swift */,
 				DF2A7F0626A9EBD00079F85E /* LifestyleItemViewController.swift */,
+				DF2A7F4926AA2E090079F85E /* SearchTableViewController.swift */,
 			);
 			path = GreenHouse;
 			sourceTree = "<group>";
@@ -312,6 +315,7 @@
 				DF1C135A26A89A550041083D /* CleaningViewController.swift in Sources */,
 				DFB4763126A7781C005D4B01 /* MenuViewController.swift in Sources */,
 				DFB4760226A76508005D4B01 /* ViewController.swift in Sources */,
+				DF2A7F4A26AA2E090079F85E /* SearchTableViewController.swift in Sources */,
 				DF1C135C26A89AE00041083D /* LifestyleViewController.swift in Sources */,
 				DF25AEF826A91AFA00369ED6 /* Greenhouse.swift in Sources */,
 				DF2A7F0726A9EBD00079F85E /* LifestyleItemViewController.swift in Sources */,
